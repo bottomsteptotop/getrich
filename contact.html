@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>தொடர்பு</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fefefe;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background: #e0f2f1;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #00695c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      margin-top: 1rem;
+      background-color: #00695c;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.2rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">முகப்பு</a>
+    <a href="cow-advice.html">பசு வளர்ப்பு</a>
+    <a href="finance.html">நிதி ஆலோசனை</a>
+    <a href="contact.html">தொடர்பு</a>
+  </nav>
+
+  <div class="container">
+    <h2>எங்களை தொடர்பு கொள்ள:</h2>
+    <form>
+      <label for="name">பெயர்:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">மின்னஞ்சல்:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">உங்கள் செய்தி:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">அனுப்பவும்</button>
+    </form>
+
+    <p>அல்லது நேரடியாக தொடர்பு கொள்ள: <strong>📞 9600546686</strong></p>
+  </div>
+
+</body>
+</html>
